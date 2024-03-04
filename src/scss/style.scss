@@ -10,6 +10,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth scroll-p-20;
+  }
   body {
     @apply font-inter;
   }
