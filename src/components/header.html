@@ -6,19 +6,21 @@
     <nav class="hidden md:block">
       <ul class="flex space-x-[50px]">
         <li>
-          <a href="#services" class="text-base lg:text-lg font-medium text-white"">Послуги</a>
+          <a href="#services" class="text-base lg:text-lg font-medium text-white hover:underline"">Послуги</a>
         </li>
         <li>
-          <a href="#about" class="text-base lg:text-lg font-medium text-white"">Про нас</a>
+          <a href="#about" class="text-base lg:text-lg font-medium text-white hover:underline"">Про нас</a>
         </li>
         <li>
-          <a href="#contacts" class="text-base lg:text-lg font-medium text-white"">Контакти</a>
+          <a href="#contacts" class="text-base lg:text-lg font-medium text-white hover:underline"">Контакти</a>
         </li>
       </ul>
     </nav>
-    <a href="#" class="inline-flex items-center justify-center px-5 py-3 lg:py-3.5 border rounded-full border-white">
-      <img src="./img/tel-icon.svg" alt="Написати нам" class="hidden lg:block size-[20px] mr-2.5">
-      <span class="text-base lg:text-lg font-medium text-white">Написати нам</span>
+    <a href="#" class="inline-flex items-center justify-center hover:bg-white text-white hover:text-primary transition-colors group px-5 py-3 lg:py-3.5 border rounded-full border-white">
+      <svg class='hidden lg:block size-[20px] mr-2.5 text-white group-hover:text-primary transition-colors'>
+        <use href='./sprites/sprite.svg#icon-tg'></use>
+      </svg>
+      <span class="text-base lg:text-lg font-medium ">Написати нам</span>
     </a>
   </div>
 </header>
