@@ -27,6 +27,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-webpack-plugin": "^4.0.1",
+    "fslightbox": "^3.4.1",
     "gulp": "^4.0.2",
     "gulp-cheerio": "^1.0.0",
     "gulp-file-include": "^2.3.0",
