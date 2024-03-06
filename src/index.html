@@ -230,34 +230,52 @@
             <div class="comments-slider -m-4 w-full p-4 lg:overflow-hidden">
               <div class="comments-slider-wrapper flex w-full">
                 <div class="comments-slider-slide slide-shadow border-primary flex shrink-0 flex-col items-center border-b-[3px] px-[15px] py-[30px] text-center">
-                  <a data-fslightbox href="https://www.youtube.com/watch?v=NpEaa2P7qZI" class="w-full h-full block">
+                  <div role="button" data-video class="w-full h-full block">
                     <img src="./img/placeholder.webp" alt="placeholder" class="w-full h-full object-cover">
-                  </a>
+                    <div class="hidden">
+                      <video src="./video/v1.mp4" controls></video>
+                    </div>
+                  </div>
                 </div>
                 <div class="comments-slider-slide slide-shadow border-primary flex shrink-0 flex-col items-center border-b-[3px] px-[15px] py-[30px] text-center">
-                  <a data-fslightbox href="https://www.youtube.com/watch?v=NpEaa2P7qZI" class="w-full h-full block">
+                  <div role="button" data-video class="w-full h-full block">
                     <img src="./img/placeholder.webp" alt="placeholder" class="w-full h-full object-cover">
-                  </a>
+                    <div class="hidden">
+                      <video src="./video/v1.mp4" controls></video>
+                    </div>
+                  </div>
                 </div>
                 <div class="comments-slider-slide slide-shadow border-primary flex shrink-0 flex-col items-center border-b-[3px] px-[15px] py-[30px] text-center">
-                  <a data-fslightbox href="https://www.youtube.com/watch?v=NpEaa2P7qZI" class="w-full h-full block">
+                  <div role="button" data-video class="w-full h-full block">
                     <img src="./img/placeholder.webp" alt="placeholder" class="w-full h-full object-cover">
-                  </a>
+                    <div class="hidden">
+                      <video src="./video/v1.mp4" controls></video>
+                    </div>
+                  </div>
                 </div>
                 <div class="comments-slider-slide slide-shadow border-primary flex shrink-0 flex-col items-center border-b-[3px] px-[15px] py-[30px] text-center">
-                  <a data-fslightbox href="https://www.youtube.com/watch?v=NpEaa2P7qZI" class="w-full h-full block">
+                  <div role="button" data-video class="w-full h-full block">
                     <img src="./img/placeholder.webp" alt="placeholder" class="w-full h-full object-cover">
-                  </a>
+                    <div class="hidden">
+                      <video src="./video/v1.mp4" controls></video>
+                    </div>
+                  </div>
                 </div>
                 <div class="comments-slider-slide slide-shadow border-primary flex shrink-0 flex-col items-center border-b-[3px] px-[15px] py-[30px] text-center">
-                  <a data-fslightbox href="https://www.youtube.com/watch?v=NpEaa2P7qZI" class="w-full h-full block">
+                  <div role="button" data-video class="w-full h-full block">
                     <img src="./img/placeholder.webp" alt="placeholder" class="w-full h-full object-cover">
-                  </a>
+                    <div class="hidden">
+                      <video src="./video/v1.mp4" controls></video>
+                    </div>
+                  </div>
                 </div>
                 <div class="comments-slider-slide slide-shadow border-primary flex shrink-0 flex-col items-center border-b-[3px] px-[15px] py-[30px] text-center">
-                  <a data-fslightbox href="https://www.youtube.com/watch?v=NpEaa2P7qZI" class="w-full h-full block">
+                  <div role="button" data-video class="w-full h-full block">
                     <img src="./img/placeholder.webp" alt="placeholder" class="w-full h-full object-cover">
-                  </a>
+                    <div class="hidden">
+                      <video src="./video/v1.mp4" controls></video>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -267,6 +285,7 @@
         </section>
       </main>
       @@include('components/footer.html', { })
+      @@include('components/modal.html', { })
     </div>
     <script type="module" crossorigin src="./js/app.min.js"></script>
   </body>
